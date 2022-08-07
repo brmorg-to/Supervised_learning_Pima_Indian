@@ -503,4 +503,4 @@ rf2_pred = best_model_rf2.predict(X_test_bruno)
 best_model_rf2.score(X_test_bruno, y_test_bruno)
 # In[127]:
 # Print the classification report
-print('\t\tClassification Report - Tuned Logistic Regression\n\n', classification_report(y_test_bruno, rf2_pred))
+print('\t\tClassification Report - Tuned Random Forest\n\n', classification_report(y_test_bruno, rf2_pred))
